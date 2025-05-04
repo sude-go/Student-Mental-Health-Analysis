@@ -1,9 +1,8 @@
 # 🎓 Student Mental Health Analysis using SQL
 
 This project analyzes the mental health status of university students, focusing on academic pressure, emotional
-well-being, and demographic influences. SQL is used to extract insights from survey responses, helping identify stress
-patterns and potential intervention areas — especially for international students adjusting to new academic
-environments.
+well-being, and demographic influences.
+
 
 ## 📊 Dataset Overview
 
@@ -20,9 +19,9 @@ Source: [Bangladeshi University Students' Mental Health Dataset](https://figshar
 
 ## 📁 Folder Structure
 
-- `data/`: Contains the original and cleaned dataset (`raw_data.csv`)
+- `data/`: Contains the original and cleaned dataset (`data.csv`)
 - `sql/`: SQL schema, insert, and query scripts
-- `notebooks/`: Python/Colab Jupyter notebook for data cleaning
+- `notebooks/`: Python/Colab Jupyter notebook for data cleaning and analysis
 - `visualizations/`: Charts and plots for data interpretation
 
 ---
@@ -45,25 +44,6 @@ The cleaned dataset (cleaned_data.csv) contains:
 - Fields required by the SQL schema for analysis
 
 > 📌 You must use **cleaned_data.csv** for database import — not the original file — to avoid type errors.
-
-## 🧱 SQL Database Setup
-
-1. Create the database:
-    ```sql
-    CREATE DATABASE student_mental_health;
-    ```
-
-2. Run the schema:
-    ```bash
-    psql -d student_mental_health -f Student-Mental-Health-Analysis/schema.Student-Mental-Health-Analysis
-    ```
-
-3. Insert data (cleaned or sample):
-    ```bash
-    psql -d student_mental_health -f Student-Mental-Health-Analysis/insert_sample.Student-Mental-Health-Analysis
-    ```
-
----
 
 ## 📈 SQL Analysis Examples
 
