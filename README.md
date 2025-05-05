@@ -1,4 +1,4 @@
-# 🎓 Student Mental Health Analysis using SQL
+# 🎓 Student Mental Health Analysis
 
 This project analyzes the mental health status of university students, focusing on academic pressure, emotional
 well-being, and demographic influences.
